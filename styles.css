@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border-sizing: border-box;
+}
+
+.promo {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #FFF59E;
+    background-color: #00563F;
+    border-bottom: 0.5px solid rgba(255, 255, 255, .5);
+}
+
+.free-shipping {
+    color: #83F28F;
+}
+
+.shipping-subtext {
+    color: #83F28F;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.returns-subtext {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.get-the-app {
+    align-self: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    font-weight: 800;
+    color: white;
+    background-color: #00563F;
+}
+
+.logo {
+    width: 3%;
+    padding-right: 30px;
+}
+
+.logo-image {
+    width: 100%;
+    object-fit: contain;
+    filter: invert(100%);
+}
+
+ul {
+    list-style: none;
+}
+
+li:not(.last-right-link, .company-info-item, .customer-service-item, .help-item, .download-item, .connect-item) {
+    display: inline;
+    padding-right: 30px;
+}
+
+li.last-right-link {
+    display: inline;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, .25);
+    padding: 5px 15px;
+    border: 1px solid white;
+    align-self: center;
+}
+
+::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+button.submit {
+    position: relative;
+    margin-left: -19%;
+}
+
+.christmas-promo-banner {
+    padding: 60px 40px;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./Images/mel-poole-1hWG72Bq8XU-unsplash.jpg);
+    background-size: contain;
+}
+
+.christmas-promo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.merry-christmas {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    color: #FFF59E;
+}
+
+.discount {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    line-height: 0;
+}
+
+.up-to {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1em;
+}
+
+.percent-off {
+    font-size: 120px;
+    font-weight: 800;
+}
+
+.shop-now {
+    color: #FFF59E;
+    font-size: 18px;
+}
+
+.shop-now-button {
+    color: #9E1A1A;
+    background-color: #FFBF00;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px 15px;
+    margin-left: 10px;
+}
+
+.security {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    padding: 10px 20px;
+    background-color: #e9e9e9;
+    font-size: 18px;
+}
+
+.security-item {
+    padding-right: 40px;
+}
+
+.lightning-deals {
+    margin: 20px 40px;
+    padding: 20px 20px;
+    background-color: #9E1A1A;
+    text-align: center;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+
+.lightning-deal-items {
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lightning-item {
+    width: 18%;
+}
+
+.lightning-item-image {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.lightning-banner {
+    background-color: #9E1A1A;
+    color: white;
+    font-size: 12px;
+    padding: 8px 5px;
+}
+
+.lightning-price {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 8px 5px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.christmas-deals-categories {
+    margin: 20px 20px;
+    padding: 20px 20px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.christmas-deal-text {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    color: red;
+}
+
+.categories-text {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.categories {
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category {
+    width: 20%;
+    background-color: #00563F;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.category-icon {
+    width: 20%;
+}
+
+.category-icon-image {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 50%;
+}
+
+.category-name-subtext {
+    font-weight: 400;
+    padding-top: 3px;
+}
+
+.items {
+    margin: 80px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 18%;
+}
+
+.item-image {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.item-description {
+    font-size: 14px;
+    padding: 5px 0 0 0;
+}
+
+.item-price {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-more {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.view-more-button {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 2em;
+    color: white;
+    background-color: #222222;
+}
+
+.company-info,
+.customer-service,
+.help,
+.download,
+.connect {
+    flex-direction: column;
+}
+
+.company-info-item,
+.customer-service-item,
+.help-item,
+.download-item,
+.connect-item {
+    font-weight: 400;
+}
